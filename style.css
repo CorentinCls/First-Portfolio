@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(158, 158, 158);
+    
+}
+
+.main {
+    margin: 4rem;
+    padding: 1rem;
+    border: 4px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px 0px black;
+    background-color: white;
+}
+
+.nav-principale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 5vh;
+}
+
+.logo-dimensions {
+    width: 50px;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 30%;
+}
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+.underlined {
+    border-bottom: 1px solid black;
+}
+
+.page-content {
+    height: 75vh;
+    display: flex;
+}
+
+.content1 {
+    padding: 1rem;
+    height: 100%;
+}
+
+.content1 .headerTop {
+    font-size: 5rem;
+    border-top: 1px solid black;
+}
+
+.content1 .headerBottom {
+    font-size: 5rem;
+    padding-left: 10rem;
+}
+.content1 .paragraphe {
+    display: flex;
+   align-items: flex-end;
+}
+.paragraphe {
+    display: flex;
+    flex-direction:column;
+    max-width: 50%;
+    margin: auto;
+
+}
+
+p {
+    padding: 1rem;
+}
+
+.ma-photo {
+    height: 100%;
+}
+
+.nav2 {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav2 li a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
